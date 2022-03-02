@@ -1,8 +1,8 @@
 $(function () {
 
-    $.get('php/conn.php',
+    $.post('php/conn.php',{},
     function (res) {
-            console.log(res);    
+        console.log(res);    
     });
     
 });
