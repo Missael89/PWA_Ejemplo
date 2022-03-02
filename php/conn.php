@@ -10,5 +10,5 @@ mysql_set_charset($connection, 'utf8');
 
 if($connection) {
     $id_hilo = mysql_thread_id($connection);
-    printf("Se conecto la base con el ID: %d", $id_hilo);
+    echo "Se conecto la base con el ID: $id_hilo";
 }
