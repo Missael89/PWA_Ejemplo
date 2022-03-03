@@ -33,11 +33,7 @@ const cargarClientes = async () => {
                   <tr>
                     <th scope="row"><button class="btn btn-secondary">Editar</button></th>
                     <th scope="row"><button class="btn btn-danger">Borrar</button></th>
-<<<<<<< Updated upstream
-                    <th scope="row">1</th>
-=======
                     <th scope="row">${el.ID}</th>
->>>>>>> Stashed changes
                     <td>${el.NOMBRE}</td>
                     <td>${el.APELLIDO}</td>
                     <td>${el.TELEFONO}</td>
