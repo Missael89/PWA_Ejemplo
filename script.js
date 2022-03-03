@@ -2,10 +2,10 @@ $(function () {
 
     cargarClientes();
 
-    $("#formSubmit").submit( async (e) => {
+    $("#formSubmit").submit((e) => {
       e.preventDefault();
 
-      await $.post('php/insert.php',
+      $.post('php/insert.php',
         {
           nombre: $("#inputNombre").val(),
           apellido: $("#inputApellido").val(),
